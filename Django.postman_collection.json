@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "44bf2144-0467-44de-91e1-48e87114db42",
+		"name": "Django",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20828605"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/person_feed/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/person_feed/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"person_feed",
+						"1"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "d",
+							"disabled": true
+						},
+						{
+							"key": "filter",
+							"value": "note",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

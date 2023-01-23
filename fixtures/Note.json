@@ -1,0 +1,32 @@
+[
+  {
+    "model": "app.note",
+    "pk": 1,
+    "fields": {
+      "created": "2023-01-23T14:20:50.864Z",
+      "title": "1 note",
+      "body": "1 note",
+      "author": 1
+    }
+  },
+  {
+    "model": "app.note",
+    "pk": 2,
+    "fields": {
+      "created": "2023-01-23T14:20:57.849Z",
+      "title": "2 note",
+      "body": "2 note",
+      "author": 2
+    }
+  },
+  {
+    "model": "app.note",
+    "pk": 3,
+    "fields": {
+      "created": "2023-01-23T14:21:07.050Z",
+      "title": "3 note",
+      "body": "3 note",
+      "author": 2
+    }
+  }
+]

@@ -1,0 +1,1 @@
+[{"model": "app.achievement", "pk": 1, "fields": {"created": "2023-01-23T14:19:32.165Z", "title": "1 achi", "conditions": "1 achi", "icon": "media/achievement/icons/JN_Haq6lYG.png"}}, {"model": "app.achievement", "pk": 2, "fields": {"created": "2023-01-23T14:19:49.108Z", "title": "2 achi", "conditions": "2 achi", "icon": "media/achievement/icons/JN_mojO7kd.png"}}]

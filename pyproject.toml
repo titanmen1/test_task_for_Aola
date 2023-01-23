@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test-task-for-aola"
+version = "0.1.0"
+description = ""
+authors = ["Artem Arkhipov <aarhipov@broniboy.ru>"]
+readme = "README.md"
+packages = [{include = "test_task_for_aola"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.1.5"
+django-environ = "^0.9.0"
+psycopg2 = "^2.9.5"
+djangorestframework = "^3.14.0"
+flake8 = "4.0.0"
+factory-boy = "^3.2.1"
+pytest-factoryboy = "^2.5.1"
+pillow = "8.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
